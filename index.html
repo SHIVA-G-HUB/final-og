@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Document Scanning & Digitalization | Gentize Innovations</title>
+
+<meta name="description" content="Professional document scanning and digitization services in Chennai. Bulk scanning, OCR, secure archiving and medical record digitization.">
+<meta name="keywords" content="Document Scanning Chennai, Digitization Services, OCR Services">
+<meta name="author" content="Gentize Innovations">
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+    <div class="spinner"></div>
+</div>
+
+<!-- MARQUEE -->
+<div class="top-marquee">
+    <marquee>🎉 First 5 Orders Get 20 Books Digitized FREE! Limited Offer 🎉</marquee>
+</div>
+
+<!-- HEADER -->
+<header>
+    <div class="logo">Gentize Innovations</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn-enquire" onclick="openPopup()">Enquire Now</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <h1>Professional Document Scanning & Digitalization</h1>
+    <p>Secure • Fast • Enterprise Solutions</p>
+    <a href="#contact" class="btn-main">Get Free Consultation</a>
+</section>
+
+<!-- EQUIPMENT -->
+<section class="section">
+    <div class="container">
+        <h2>Our Professional Equipment</h2>
+
+        <div class="equipment-box">
+            <img src="images/canon.jpg.jpeg" alt="Canon Scanner">
+            <div>
+                <h3>Canon Production Scanner</h3>
+                <p>High speed industrial scanner for bulk digitization.</p>
+            </div>
+        </div>
+
+        <div class="equipment-box">
+            <img src="images/hp.jpg.jpeg" alt="HP Scanner">
+            <div>
+                <h3>HP Enterprise Flow Scanner</h3>
+                <p>Secure scanning solution for enterprise projects.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- VIDEO -->
+<section class="section">
+    <div class="container">
+        <h2>Live Scanning Demo</h2>
+        <video controls>
+            <source src="videos/demo.mp4.mp4" type="video/mp4">
+        </video>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="grid">
+            <div class="card">Bulk Document Scanning</div>
+            <div class="card">OCR & Indexing</div>
+            <div class="card">Secure Archiving</div>
+            <div class="card">File Conversion</div>
+            <div class="card">Medical Digitization</div>
+            <div class="card">Cloud Storage</div>
+        </div>
+    </div>
+</section>
+<!-- SECURE DIGITAL STORAGE -->
+<section class="section secure-section">
+    <div class="container secure-flex">
+        
+        <div class="secure-text">
+            <h2>Secure Digital File Management</h2>
+            <p>
+                All scanned documents are securely organized and structured
+                with proper indexing and searchable formats.
+            </p>
+            <ul>
+                <li>✔ Organized Folder Structure</li>
+                <li>✔ ISBN & File Coding System</li>
+                <li>✔ Secure Storage & Backup</li>
+                <li>✔ Cloud & Local Delivery Options</li>
+            </ul>
+        </div>
+
+        <div class="secure-image">
+            <img src="images/secure.jpg.png" alt="Secure File System">
+        </div>
+
+    </div>
+</section>
+
+
+<!-- COUNTER -->
+<section class="section counter-section">
+    <div class="container counter-grid">
+        <div>
+            <h2 class="counter" data-target="10000">0</h2>
+            <p>Documents Scanned</p>
+        </div>
+        <div>
+            <h2 class="counter" data-target="500">0</h2>
+            <p>Happy Clients</p>
+        </div>
+        <div>
+            <h2 class="counter" data-target="50">0</h2>
+            <p>Enterprise Projects</p>
+        </div>
+    </div>
+</section>
+
+<!-- PRICING -->
+<section class="section pricing">
+    <div class="container">
+        <h2>Our Packages</h2>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3>Starter</h3>
+                <p>Up to 1000 Pages</p>
+                <h2>₹2999</h2>
+            </div>
+            <div class="price-card">
+                <h3>Professional</h3>
+                <p>Up to 5000 Pages</p>
+                <h2>₹9999</h2>
+            </div>
+            <div class="price-card">
+                <h3>Enterprise</h3>
+                <p>Unlimited</p>
+                <h2>Custom Quote</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section testimonials">
+    <div class="container">
+        <h2>Client Testimonials</h2>
+        <div class="testimonial-slider">
+            <div class="slide active">Excellent secure service! <h4>- Healthcare</h4></div>
+            <div class="slide">Very professional team. <h4>- Legal Firm</h4></div>
+            <div class="slide">Highly recommended. <h4>- Finance</h4></div>
+        </div>
+    </div>
+</section>
+
+<!-- GOOGLE MAP -->
+<section class="section">
+    <iframe src="https://maps.google.com/maps?q=Chennai%20600128&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+    <div class="container">
+        <h2>Enquiry Now</h2>
+        <form action="https://formspree.io/f/xkndabcd" method="POST">
+
+    <input type="text" name="name" placeholder="Full Name" required>
+
+    <input type="email" name="email" placeholder="Email Address" required>
+
+    <input type="text" name="phone" placeholder="Phone Number" required>
+
+    <textarea name="message" placeholder="Your Requirement" required></textarea>
+
+    <!-- Custom Email Subject -->
+    <input type="hidden" name="_subject" value="New Digitization Enquiry - Gentize Innovations">
+
+    <button type="submit" class="btn-main">Submit Enquiry</button>
+
+</form>
+
+    </div>
+</section>
+
+<footer>
+    <p>No.9, 2nd Floor, Saravana Complex, Service Road, Paraniputhur, Chennai - 600128</p>
+    <p><a href="tel:73558534315">91+73558534315</a> | <a href="https://wa.me/9173558534315">WhatsApp</a></p>
+</footer>
+
+<a href="https://wa.me/9173558534315" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+
+<div class="popup" id="popupForm">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h3>Quick Enquiry</h3>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Phone" required>
+            <button class="btn-main">Submit</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
